@@ -1,0 +1,218 @@
+/*************** COMMON ***************/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "chaneyultra_extended", Arial, Helvetica, sans-serif;
+}
+.intro h1 {
+  font-size: 100px;
+  letter-spacing: 0.08em;
+  line-height: 200px;
+  color: #fff;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+  padding-top: 50px;
+  text-align: center;
+  max-width: 900px;
+}
+h2 {
+  font-size: 60px;
+  line-height: 40px;
+}
+h2 {
+  font-size: 48px;
+  line-height: 40px;
+}
+h4 {
+  font-size: 30px;
+  line-height: 40px;
+}
+h5 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*************** HEADER ***************/
+.header {
+  background-color: #1a1726;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  position: fixed;
+  z-index: 10;
+}
+.header img {
+  padding-top: 20px;
+}
+.header_menu {
+  text-align: right;
+}
+.header_menu ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-top: 40px;
+  padding: 10px 0;
+}
+.header_menu ul li a {
+  padding: 10px 0;
+  font-family: "chaneyultra_extended", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  color: #fff;
+}
+.header_menu ul li a:hover {
+  color: orange;
+}
+/*************** BODY ***************/
+.intro {
+  margin-top: 120px;
+  width: 100%;
+  height: 520px;
+  background: linear-gradient(
+    #1a1726 0%,
+    #252234 12.13%,
+    #332f45 24.67%,
+    #665f82 48.11%,
+    #aaa4c2 66.5%,
+    #f2f1f6 94.96%,
+    #fff 100%
+  );
+}
+.lck_intro_history {
+  margin-top: 200px;
+  height: 550px;
+}
+.lck_intro_history p {
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 25px;
+}
+/*notable wins end */
+.notable_wins {
+  background-color: #1a1726;
+  width: 100%;
+  height: 1700px;
+}
+.notable_wins h4 {
+  color: #fff;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-top: 200px;
+}
+.notable_wins p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.notable_wins_teams li {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.notable_wins h5 {
+  margin-top: 50px;
+}
+/*notable wins end */
+
+/* star players */
+
+.star_players .legends_stars {
+  text-align: center;
+  margin-top: 130px;
+}
+.star_players h6 {
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+.star_players ul li {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.star_players_grid li p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.team_call {
+  text-align: center;
+  margin-top: 100px;
+}
+.btn {
+  width: 260px;
+  height: 70px;
+  margin-top: 50px;
+  background-color: #1a1726;
+  border: solid 1px #000;
+  text-align: center;
+  padding: 25px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 20px;
+}
+.btn:hover {
+  width: 260px;
+  height: 70px;
+  margin-top: 50px;
+  background-color: #1a1726;
+  border: solid 1px #000;
+  text-align: center;
+  padding-top: 25px;
+  color: orange;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+/* star players end */
+footer {
+  background-color: #1a1726;
+  width: 100%;
+  height: 150px;
+  margin-top: 80px;
+}
+footer .author {
+  margin-top: 65px;
+}
+footer .social {
+  margin-top: 15px;
+}
+footer p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+}
+footer .social {
+  text-align: right;
+}
+footer ul li {
+  display: inline-block;
+  text-align: right;
+  padding-left: 15px;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+.js .fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+.js .fadeInDown {
+  transform: translate3d(0, -15px, 0);
+}
+.js .anime {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 800ms, transform 800ms;
+}

@@ -1,0 +1,13 @@
+.split .container ul {
+  margin-top: 30px;
+}
+.split .container ul li {
+  padding-bottom: 20px;
+}
+.split .container ul li p {
+  height: 340px;
+  font-size: 16px;
+}
+.split {
+  margin-bottom: 100px;
+}

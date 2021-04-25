@@ -1,0 +1,51 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+}
+
+@media only screen and (max-width: 787px) {
+  .container {
+    width: 300px;
+  }
+  .header {
+    height: 250px;
+    position: relative;
+  }
+  .header img {
+    margin: 0 auto;
+  }
+  .header_menu {
+    text-align: center;
+    border: #fff 2px solid;
+  }
+  .intro {
+    margin: 0;
+  }
+  .intro h1 {
+    font-size: 48px;
+    line-height: 48px;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    text-align: center;
+  }
+  .lck_intro_history {
+    height: 750px;
+    margin-top: 0;
+  }
+  .notable_wins {
+    height: 3900px;
+  }
+  .header_menu ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 0;
+  }
+  .header_menu ul li a {
+    padding: 10px 0;
+    font-family: "chaneyultra_extended", Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    line-height: 20px;
+    color: #fff;
+  }
+}
